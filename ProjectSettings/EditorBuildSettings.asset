@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Start.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Rustin's game.unity
     guid: 3eb92da713eea4815958175be2cd0740
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 4f8670ded33441042b9b7b9c6e209174
   m_configObjects: {}

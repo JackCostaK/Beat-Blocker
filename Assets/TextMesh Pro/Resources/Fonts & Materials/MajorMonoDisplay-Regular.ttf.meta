@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b60ab1abccfdcf4f857c15982dd01df
+guid: c75e331588a8922469cc7f04d814e1a2
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Tiki Tropic
+  - Major Mono Display
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
