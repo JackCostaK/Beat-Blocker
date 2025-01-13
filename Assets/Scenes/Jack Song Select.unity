@@ -482,11 +482,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406545310}
   m_CullTransparentMesh: 1
---- !u!95 &461499255 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5239442375285108251, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
-  m_PrefabInstance: {fileID: 1954017315}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &500070724
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,6 +743,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
+--- !u!95 &674448426 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5357544152774624249, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
+  m_PrefabInstance: {fileID: 1954017315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &701133249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 035ec9196bba9443982fdb31622ff00d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transition: {fileID: 461499255}
+  transition: {fileID: 674448426}
   transitionTime: 1
 --- !u!114 &1380132258
 MonoBehaviour:
@@ -2349,6 +2349,34 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2526118926979185741, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517417694523042456, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517417694523042456, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517417694523042456, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517417694523042456, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517417694523042456, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517417694523042456, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517417694523042456, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
+      propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5521442607352933974, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
