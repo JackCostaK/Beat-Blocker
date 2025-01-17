@@ -1280,8 +1280,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00425002, y: 0.0084500015, z: 0}
-    m_Extent: {x: 0.61115, y: 0.92324996, z: 0}
+    m_Center: {x: -0.0013499856, y: 0.008349985, z: 0}
+    m_Extent: {x: 0.60775, y: 0.92034996, z: 0}
   m_PointLightInnerAngle: 154.2857
   m_PointLightOuterAngle: 268.5714
   m_PointLightInnerRadius: 0
@@ -1724,8 +1724,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278754245
+  m_fontColor: {r: 0.7735849, g: 0.60707945, b: 0.032840855, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2131,7 +2131,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0dde773d9af3db545bd3ceeacfe96d78, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3ba81a062cd99c444852c0f7a9672972, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

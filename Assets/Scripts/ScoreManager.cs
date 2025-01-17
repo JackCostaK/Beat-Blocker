@@ -61,7 +61,7 @@ public class ScoreManager : MonoBehaviour
         ShowResults = false;
         _waitTime = 0.5f;
         _done = false;
-        _returnTime = 5f;
+        _returnTime = 2f;
     }
     public static void Hit()
     {
@@ -105,38 +105,38 @@ public class ScoreManager : MonoBehaviour
             if (score < suckScore)
             {
                 _failure.Play();
-                _scoreText.color = Color.grey;
+               
                 _scoreText.text = "you suck...";
             }
             else if (score < ehScore)
             {
                 _failure.Play();
-                _scoreText.color = Color.magenta;
-                _scoreText.text = "eh, just ok...";
+               
+                _scoreText.text = "yikes";
             }
             else if (score < nbScore)
             {
                 _success.Play();
-                _scoreText.color = Color.blue;
+                
                 _scoreText.text = "not bad.";
             }
             else if (score < niceScore)
             {
                 _success.Play();
-                _scoreText.color = Color.yellow;
+                
                 _scoreText.text = "nice job!";
             }
             else if (score < specScore)
             {
                 _success.Play();
-                _scoreText.color = new Color(1f, 0.6f, 0.01f);
-                _scoreText.text = "spectacular!!";
+               
+                _scoreText.text = "spectacular";
             }
             else
             {
                 _success.Play();
-                _scoreText.color = Color.red;
-                _scoreText.text = "perfection!!!";
+              
+                _scoreText.text = "perfection";
             }
             ShowResults = false;
             _done = true;
