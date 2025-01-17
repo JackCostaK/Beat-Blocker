@@ -507,6 +507,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &166938293 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5357544152774624249, guid: 57336839a26555348b3ff8f75f4a00d1, type: 3}
+  m_PrefabInstance: {fileID: 60196261}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &207409949
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,8 +975,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 500
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6e8142d5ab7a86d4f84f768e47fa93a8, type: 2}
+  m_sharedMaterial: {fileID: -3461805379021688659, guid: 6e8142d5ab7a86d4f84f768e47fa93a8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1060,7 +1065,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: -3461805379021688659, guid: 6e8142d5ab7a86d4f84f768e47fa93a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1275,8 +1280,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00025001168, y: 0.0123000145, z: 0}
-    m_Extent: {x: 0.59965, y: 0.9235, z: 0}
+    m_Center: {x: 0.00425002, y: 0.0084500015, z: 0}
+    m_Extent: {x: 0.61115, y: 0.92324996, z: 0}
   m_PointLightInnerAngle: 154.2857
   m_PointLightOuterAngle: 268.5714
   m_PointLightInnerRadius: 0
@@ -1318,7 +1323,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 11b9553ed8fd1da40bcd246667cb77ed, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3ba81a062cd99c444852c0f7a9672972, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1459,8 +1464,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 500
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6e8142d5ab7a86d4f84f768e47fa93a8, type: 2}
+  m_sharedMaterial: {fileID: -3461805379021688659, guid: 6e8142d5ab7a86d4f84f768e47fa93a8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1549,7 +1554,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: -3461805379021688659, guid: 6e8142d5ab7a86d4f84f768e47fa93a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1712,8 +1717,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6e8142d5ab7a86d4f84f768e47fa93a8, type: 2}
+  m_sharedMaterial: {fileID: -3461805379021688659, guid: 6e8142d5ab7a86d4f84f768e47fa93a8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1802,7 +1807,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: -3461805379021688659, guid: 6e8142d5ab7a86d4f84f768e47fa93a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2686,6 +2691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573274478}
   - component: {fileID: 1573274477}
+  - component: {fileID: 1573274479}
   m_Layer: 0
   m_Name: ScoreManager
   m_TagString: Untagged
@@ -2709,6 +2715,7 @@ MonoBehaviour:
   missSFX: {fileID: 1166276438}
   comboText: {fileID: 787908171}
   scoreText: {fileID: 477599180}
+  SceneMove: {fileID: 1573274479}
   _scoreText: {fileID: 1065603615}
   _success: {fileID: 605086117}
   _failure: {fileID: 1259784989}
@@ -2734,6 +2741,20 @@ Transform:
   - {fileID: 605086118}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1573274479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573274476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 035ec9196bba9443982fdb31622ff00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transition: {fileID: 166938293}
+  transitionTime: 1
 --- !u!1 &1660912532
 GameObject:
   m_ObjectHideFlags: 0

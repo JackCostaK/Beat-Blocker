@@ -15,6 +15,9 @@ public class ScoreManager : MonoBehaviour
     public static int comboScore;
     public static int score;
 
+
+    public GameStart SceneMove;
+
     public bool ShowResults { get; set; } = false;
 
     private float _waitTime = 0.5f;
@@ -90,8 +93,8 @@ public class ScoreManager : MonoBehaviour
         _returnTime -= Time.deltaTime;
         if (_returnTime < 0)
         {
+            SceneMove.SceneToGame(1);
             
-            SceneManager.LoadScene("Jack Song Select");
         }
     }
     public void Results()
