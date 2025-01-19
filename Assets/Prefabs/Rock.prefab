@@ -50,6 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assignedTime: 0
   hitParticle: {fileID: 3239523149053324725, guid: 8b66d862efccc4384a87e4314e688ff8, type: 3}
+  hitSFXPrefab: {fileID: 6227587550801252180, guid: 90c9c93f00d454240aa064d0fe6898b5, type: 3}
 --- !u!212 &4812791514721530789
 SpriteRenderer:
   m_ObjectHideFlags: 0

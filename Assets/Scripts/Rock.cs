@@ -10,6 +10,11 @@ public class Rock : MonoBehaviour
     public float assignedTime;
     public GameObject hitParticle;
     GameObject hitInstance;
+    public GameObject hitSFXPrefab;
+    GameObject hitSFXInstance;
+
+
+    bool active = true;
 
 
 
@@ -30,7 +35,7 @@ public class Rock : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Shield")) {
+        if (other.gameObject.CompareTag("Shield") && active) {
             ScoreManager.Hit();
 
             hitInstance = Instantiate(hitParticle, transform);
@@ -38,21 +43,31 @@ public class Rock : MonoBehaviour
 
             DestroyGlow(gameObject);
 
+
             transform.DetachChildren();
 
-            Destroy(gameObject);
+            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+
+            active = false;
+
+            
+            
 
 
 
 
         }
-        else if (other.gameObject.CompareTag("Player"))
+        else if (other.gameObject.CompareTag("Player") && active)
         {
             ScoreManager.Miss();
             Destroy(gameObject);
-
-
-
+        }
+        else if (other.gameObject.CompareTag("Player") && active == false)
+        {
+            Destroy(gameObject);
+            hitSFXInstance = Instantiate(hitSFXPrefab);
+            hitSFXInstance.GetComponent<AudioSource>().PlayDelayed(0f);
+            Destroy(hitSFXInstance, 3);
         }
 
 
@@ -75,11 +90,13 @@ public class Rock : MonoBehaviour
             var parentGameObject = this.transform.parent.gameObject;
             transform.localPosition = Vector3.Lerp(new Vector3(parentGameObject.GetComponent<Lane>().noteSpawnX, parentGameObject.GetComponent<Lane>().noteSpawnY,0f), new Vector3(parentGameObject.GetComponent<Lane>().noteDespawnX, parentGameObject.GetComponent<Lane>().noteDespawnY, 0f), t);
 
-
-            GetComponent<SpriteRenderer>().enabled = true;
-            GetComponent<BoxCollider2D>().enabled = true;
-            GetComponentInChildren<SpriteRenderer>().enabled = true;
-            GetComponentInChildren<Light2D>().enabled = true;
+            if (active)
+            {
+                GetComponent<SpriteRenderer>().enabled = true;
+                GetComponent<BoxCollider2D>().enabled = true;
+                GetComponentInChildren<SpriteRenderer>().enabled = true;
+                GetComponentInChildren<Light2D>().enabled = true;
+            }
 
         }
     }

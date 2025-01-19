@@ -8,13 +8,14 @@ using UnityEngine.SceneManagement;
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager Instance;
-    public AudioSource hitSFX;
+    
+    
     public AudioSource missSFX;
     public TMPro.TextMeshPro comboText;
     public TMPro.TextMeshPro scoreText;
     public static int comboScore;
     public static int score;
-
+    
 
     public GameStart SceneMove;
 
@@ -66,10 +67,12 @@ public class ScoreManager : MonoBehaviour
     }
     public static void Hit()
     {
-        comboScore += 1;
-        Instance.hitSFX.PlayDelayed(0.15f);
+        comboScore += 1; 
+        
+
         score += (17 * comboScore);
         ShakeBehaviour.Instance.TriggerShake();
+        
     }
     public static void Miss()
     {
