@@ -47,7 +47,7 @@ public class ScoreManager : MonoBehaviour
             niceScore = 140000;
             specScore = 244205;
         }
-        else if (SongManager.SongNum == 1)
+        else 
         {
             suckScore = 10000;
             ehScore = 20000;
@@ -55,6 +55,7 @@ public class ScoreManager : MonoBehaviour
             niceScore = 120000;
             specScore = 172601;
         }
+        
         Instance = this;
         comboScore = 0;
         score = 0;
