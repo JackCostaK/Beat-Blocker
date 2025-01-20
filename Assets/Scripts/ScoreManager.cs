@@ -95,7 +95,7 @@ public class ScoreManager : MonoBehaviour
     public void Return()
     {
         _returnTime -= Time.deltaTime;
-        if (_returnTime < 0)
+        if (_returnTime <= 0)
         {
             SceneMove.SceneToGame(1);
             

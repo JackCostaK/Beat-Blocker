@@ -308,8 +308,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.31749988, y: -0.13739991, z: 0}
-    m_Extent: {x: 4.2368, y: 4.2257004, z: 0}
+    m_Center: {x: -0.31025004, y: -0.1336, z: 0}
+    m_Extent: {x: 4.23905, y: 4.2271004, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -869,7 +869,7 @@ GameObject:
   - component: {fileID: 777181474}
   - component: {fileID: 777181479}
   m_Layer: 5
-  m_Name: Just The Two of Us
+  m_Name: Always
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -991,7 +991,7 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: c46d15afb7c9c49ad9953160dc8d8bee, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: d7dd27bc11be9e94aa383378212c3a82, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1905,7 +1905,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Just The Two Of Us
+  m_text: Always
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6e8142d5ab7a86d4f84f768e47fa93a8, type: 2}
   m_sharedMaterial: {fileID: -3461805379021688659, guid: 6e8142d5ab7a86d4f84f768e47fa93a8, type: 2}
@@ -1932,8 +1932,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.75
-  m_fontSizeBase: 53.75
+  m_fontSize: 70.9
+  m_fontSizeBase: 70.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2180,8 +2180,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -1.346201, y: -1.2246003, z: 0}
-    m_Extent: {x: 48.5608, y: 9.306601, z: 0}
+    m_Center: {x: -1.3526001, y: -1.2223, z: 0}
+    m_Extent: {x: 48.5703, y: 9.292999, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2302,7 +2302,7 @@ GameObject:
   - component: {fileID: 1460648760}
   - component: {fileID: 1460648759}
   m_Layer: 0
-  m_Name: JustTheTwo
+  m_Name: Always
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2318,9 +2318,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fbd8c1569510147eb85098ed7da995da, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7aef85700a69ae44cb50fa5c27945618, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.201
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3618,8 +3618,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.3647499, y: -0.6266, z: 0}
-    m_Extent: {x: 16.98505, y: 4.6576996, z: 0}
+    m_Center: {x: 0.36174965, y: -0.63065004, z: 0}
+    m_Extent: {x: 16.98715, y: 4.66185, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

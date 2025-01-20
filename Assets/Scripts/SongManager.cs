@@ -13,7 +13,7 @@ public class SongManager : MonoBehaviour
     public static SongManager Instance;
     public static int SongNum = 0;
     public AudioSource MLaudioSource;
-    public AudioSource JTaudioSource;
+    public AudioSource AlaudioSource;
     public AudioSource LOaudioSource;
     private AudioSource audioSource;
 
@@ -25,7 +25,7 @@ public class SongManager : MonoBehaviour
 
 
     public string MLfileLocation;
-    public string JTfileLocation;
+    public string AlfileLocation;
     public string LOfileLocation;
     public string fileLocation;
     public float noteTime;
@@ -45,7 +45,7 @@ public class SongManager : MonoBehaviour
         if (SongNum == 0)
             audioSource = MLaudioSource;
         if (SongNum == 1)
-            audioSource = JTaudioSource;
+            audioSource = AlaudioSource;
         if (SongNum == 2)
             audioSource = LOaudioSource;
         ReadFromFile();
@@ -57,7 +57,7 @@ public class SongManager : MonoBehaviour
         if (SongNum == 0)
             fileLocation = MLfileLocation;
         if (SongNum == 1)
-            fileLocation = JTfileLocation;
+            fileLocation = AlfileLocation;
         if (SongNum == 2)
             fileLocation = LOfileLocation;
 
