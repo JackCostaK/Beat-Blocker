@@ -11,7 +11,7 @@ public class Back : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            sceneMove.SceneToGame(2);
+            sceneMove.SceneToGame(0);
         }
     }
 }
