@@ -16,7 +16,7 @@ Select from a wide variety of your favourite songs
 ![image](https://github.com/user-attachments/assets/6b27ad28-7eb3-4e0f-b777-99a6827e0c49)
 
 
-### Game
+### Gameplay
 Block the notes coming towards you to the beat of the song!
 
 https://github.com/user-attachments/assets/199140a0-7b09-4aa3-aa4b-04e4b87db927
