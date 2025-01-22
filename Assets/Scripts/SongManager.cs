@@ -12,7 +12,7 @@ public class SongManager : MonoBehaviour
 
     public static SongManager Instance;
     public static int SongNum = 0;
-    public AudioSource MLaudioSource;
+    public AudioSource VVaudioSource;
     public AudioSource AlaudioSource;
     public AudioSource LOaudioSource;
     private AudioSource audioSource;
@@ -24,7 +24,7 @@ public class SongManager : MonoBehaviour
     //public int inputDelayInMilliseconds;
 
 
-    public string MLfileLocation;
+    public string VVfileLocation;
     public string AlfileLocation;
     public string LOfileLocation;
     public string fileLocation;
@@ -43,7 +43,7 @@ public class SongManager : MonoBehaviour
 
         Instance = this;
         if (SongNum == 0)
-            audioSource = MLaudioSource;
+            audioSource = VVaudioSource;
         if (SongNum == 1)
             audioSource = AlaudioSource;
         if (SongNum == 2)
@@ -55,7 +55,7 @@ public class SongManager : MonoBehaviour
     private void ReadFromFile()
     {
         if (SongNum == 0)
-            fileLocation = MLfileLocation;
+            fileLocation = VVfileLocation;
         if (SongNum == 1)
             fileLocation = AlfileLocation;
         if (SongNum == 2)
