@@ -15,6 +15,7 @@ public class SongManager : MonoBehaviour
     public AudioSource VVaudioSource;
     public AudioSource AlaudioSource;
     public AudioSource LOaudioSource;
+    public AudioSource BPaudioSource;
     private AudioSource audioSource;
 
     public Lane[] lanes;
@@ -27,6 +28,7 @@ public class SongManager : MonoBehaviour
     public string VVfileLocation;
     public string AlfileLocation;
     public string LOfileLocation;
+    public string BPfileLocation;
     public string fileLocation;
     public float noteTime;
    
@@ -48,6 +50,8 @@ public class SongManager : MonoBehaviour
             audioSource = AlaudioSource;
         if (SongNum == 2)
             audioSource = LOaudioSource;
+        if (SongNum == 3)
+            audioSource = BPaudioSource;
         ReadFromFile();
         
     }
@@ -60,6 +64,8 @@ public class SongManager : MonoBehaviour
             fileLocation = AlfileLocation;
         if (SongNum == 2)
             fileLocation = LOfileLocation;
+        if (SongNum == 3)
+            fileLocation = BPfileLocation;
 
         midiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + fileLocation);
         GetDataFromMidi();

@@ -40,22 +40,14 @@ public class ScoreManager : MonoBehaviour
     void Start()
     {
 
-        if (SongManager.SongNum == 0)
-        {
-            suckScore = 10000;
-            ehScore = 30000;
-            nbScore = 70000;
-            niceScore = 140000;
-            specScore = 244205;
-        }
-        else 
-        {
-            suckScore = 10000;
-            ehScore = 20000;
-            nbScore = 60000;
-            niceScore = 120000;
-            specScore = 172601;
-        }
+        
+        suckScore = 50000;
+        ehScore = 70000;
+        nbScore = 100000;
+        niceScore = 150000;
+        specScore = 500000;
+        
+   
         
         Instance = this;
         comboScore = 0;
@@ -140,7 +132,7 @@ public class ScoreManager : MonoBehaviour
             {
                 _success.Play();
               
-                _scoreText.text = "perfection";
+                _scoreText.text = "godlike";
             }
             ShowResults = false;
             _done = true;
