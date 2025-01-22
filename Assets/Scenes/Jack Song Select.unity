@@ -257,6 +257,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16670876}
   m_CullTransparentMesh: 1
+--- !u!1 &96336181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 96336182}
+  m_Layer: 0
+  m_Name: SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &96336182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96336181}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2128971631}
+  - {fileID: 980370854}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &210774907
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,8 +341,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.3131001, y: -0.13494992, z: 0}
-    m_Extent: {x: 4.2365, y: 4.23005, z: 0}
+    m_Center: {x: -0.31215, y: -0.14120007, z: 0}
+    m_Extent: {x: 4.22885, y: 4.2282, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -709,12 +742,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320674524}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.7363222, y: -0.47725457, z: -1.4416354}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2053624359}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &417258132
 GameObject:
@@ -1027,7 +1060,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 96336182}
     m_Modifications:
     - target: {fileID: 489955944074052062, guid: 08dd4753e6097b741b27739c7dcf9b5f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1047,15 +1080,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489955944074052062, guid: 08dd4753e6097b741b27739c7dcf9b5f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 489955944074052062, guid: 08dd4753e6097b741b27739c7dcf9b5f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 489955944074052062, guid: 08dd4753e6097b741b27739c7dcf9b5f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 489955944074052062, guid: 08dd4753e6097b741b27739c7dcf9b5f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1071,7 +1104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5796852272830923325, guid: 08dd4753e6097b741b27739c7dcf9b5f, type: 3}
       propertyPath: m_Name
-      value: ButtonHoverAudio
+      value: ButtonHoverSFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2091,7 +2124,7 @@ GameObject:
   - component: {fileID: 980370854}
   - component: {fileID: 980370853}
   m_Layer: 0
-  m_Name: Start!Audio
+  m_Name: selectSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2201,12 +2234,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980370852}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.7363222, y: -0.47725457, z: -1.4416354}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 96336182}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1025393311
 GameObject:
@@ -3181,8 +3214,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -1.3517494, y: -1.2221003, z: 0}
-    m_Extent: {x: 48.55705, y: 9.3007, z: 0}
+    m_Center: {x: -1.3465996, y: -1.2195001, z: 0}
+    m_Extent: {x: 48.5663, y: 9.2941, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5321,8 +5354,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.3633499, y: -0.63065004, z: 0}
-    m_Extent: {x: 16.99105, y: 4.66585, z: 0}
+    m_Center: {x: 0.36139965, y: -0.6243501, z: 0}
+    m_Extent: {x: 17.000801, y: 4.66495, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5403,7 +5436,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5872,6 +5905,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 320674526}
   - {fileID: 809616627}
   - {fileID: 1460648760}
   - {fileID: 1124717469}
@@ -6007,6 +6041,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &2128971631 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 489955944074052062, guid: 08dd4753e6097b741b27739c7dcf9b5f, type: 3}
+  m_PrefabInstance: {fileID: 724821743}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -6017,7 +6056,5 @@ SceneRoots:
   - {fileID: 1219264649}
   - {fileID: 1954017315}
   - {fileID: 1472580947}
-  - {fileID: 724821743}
-  - {fileID: 980370854}
-  - {fileID: 320674526}
   - {fileID: 2053624359}
+  - {fileID: 96336182}
