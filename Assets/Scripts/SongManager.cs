@@ -110,7 +110,7 @@ public class SongManager : MonoBehaviour
         {
             audioSource.UnPause();
         }
-        if (audioSource.isPlaying == false && GetAudioSourceTime()  > 10 && Time.timeScale == 1)
+        if (audioSource.isPlaying == false && GetAudioSourceTime()  > 120 && Time.timeScale == 1)
         {
 
             ScoreManager.Instance.ShowResults = true;

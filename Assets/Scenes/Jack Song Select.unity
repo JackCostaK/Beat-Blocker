@@ -341,8 +341,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.31215, y: -0.14120007, z: 0}
-    m_Extent: {x: 4.22885, y: 4.2282, z: 0}
+    m_Center: {x: -0.31115007, y: -0.13514996, z: 0}
+    m_Extent: {x: 4.22715, y: 4.22655, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3214,8 +3214,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -1.3465996, y: -1.2195001, z: 0}
-    m_Extent: {x: 48.5663, y: 9.2941, z: 0}
+    m_Center: {x: -1.3451996, y: -1.22295, z: 0}
+    m_Extent: {x: 48.5628, y: 9.30775, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4859,7 +4859,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000030517578}
+  m_AnchoredPosition: {x: 0, y: 0.00012207031}
   m_SizeDelta: {x: 604, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1698600032
@@ -4975,7 +4975,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 32
 --- !u!114 &1738677580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5354,8 +5354,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.36139965, y: -0.6243501, z: 0}
-    m_Extent: {x: 17.000801, y: 4.66495, z: 0}
+    m_Center: {x: 0.35785007, y: -0.63045, z: 0}
+    m_Extent: {x: 16.994751, y: 4.6565504, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5675,7 +5675,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 417258134}
   m_HandleRect: {fileID: 417258133}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
