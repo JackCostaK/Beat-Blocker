@@ -3,6 +3,8 @@
 ## Description
 In Beat Blocker, notes fly at you and it's your job to block them! Notes hit your shield to the beat of the music in every level! Play along to your favourite songs in this high octane, neon lit atmosphere!
 
+## Download
+Windows: https://github.com/JackCostaK/Beat-Blocker/releases
 
 ## Gameplay
 ### Menu
